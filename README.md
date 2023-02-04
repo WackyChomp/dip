@@ -56,13 +56,14 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-- summary here
--
--
+Given the recent rise and public attention of AI art around October (10/2022), it too exciting and impressive to ignore. Currently there are divisive consensus regarding its usage and legality purposes.
 
-Purpose / Vision:
-* Showcasing creativity through prompts publicly
+One thing I know for sure is that we are living in an incredible moment in time where we see the birth and transformation of AI. From here on out, it can only improve
+
+<br><b>Project Purpose / Vision:</b>
+* Showcasing creativity through prompts
 * Pushing generative boundaries
+* Allowing users to create/post publicly
 
 
 
@@ -76,7 +77,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 * [![React][React.js]][React-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,7 +135,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Connect to DALL-E
 - [ ] Adding sample prompts
 - [ ] Creating posts
-- [ ] 
+- [ ] Finalized color theme
 - [ ] 
     - [ ] 
     - [ ] 
@@ -190,9 +190,6 @@ Use this space to list resources you find helpful and would like to give credit 
 [issues-url]: https://github.com/WackyChomp/dip/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/WackyChomp/dip/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
