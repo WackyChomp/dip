@@ -8,5 +8,12 @@ export const funSamplePrompts = [
     'Isometric view of Super Mario in NYC trying to find the plumbing store , bright red line path showing Mario where to go , art style of Super Mario RPG snes',
     'Hyper realistic microscopic image of war between tardigrades fighting sea monkeys under the microscope',
     "Famous rapper O'Shea Jackson arguing with a plate of ice cubes that are melting from O'Shea Jackson's warm breath",
-    'Teenage Mutant Ninja Turtles joining forces with Mighty Morphin Power Rangers to battle Shredder and Rita Repulsa in anime style'
+    'Teenage Mutant Ninja Turtles joining forces with Mighty Morphin Power Rangers to battle Shredder and Rita Repulsa in anime style',
+    'Pokemon Victini V-Create special move colliding with Braviary Brave Bird move , anime style',
+    'Clint Eastwood cowboy riding on a brown horse next to Venom Snake riding a white horse from Metal Gear Solid V , hyper realistic game graphics',
+    'The Last of Us game but with ants replacing the human characters',
+    'Breaking Bad school teacher Walter White confronts Heisenberg in the desert with Jesse Pinkman in the background high resolution',
+    'Dear animal saying "Oh, dear" to a funny joke from Calvin and Hobbes , comic style',
+    "Victor Frankenstein using a lightning staff to reanimate corpses in the graveyard to fight his 1st reanimation Frankenstein's creature",
+
 ];
