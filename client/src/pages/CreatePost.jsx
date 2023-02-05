@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Form, useNavigate } from 'react-router-dom';
 
 import { preview } from '../assets';
 import { getRandomPrompt } from '../utils';
@@ -18,6 +18,16 @@ const CreatePost = () => {
   const [generatingImg, setGeneratingImg] = useState(false);
   const [loading, setLoading] = useState(false);
 
+
+
+  const handleSubmit = () =>{ }
+
+  const handleChange = (e) =>{ }
+
+  const handleFunSamplePrompt = () =>{ }
+
+
+  
   return (
     <section className='max-w-7xl mx-auto'>
       <div>
@@ -29,6 +39,34 @@ const CreatePost = () => {
           Share your prompt ideas and pictures at your own <u className='font-bold uppercase text-[crimson]'>discretion</u>
         </p>
       </div>
+
+      <form className='mt-20 max-w-3xl' onSubmit={handleSubmit}>
+        <div className='flex flex-col gap-5'>
+
+          {/* User Info */}
+          <FormField 
+            LabelName='Enter name'
+            type='text'
+            name='name'
+            placeholder='Joe Shmoe'
+            value={form.name}
+            handleChange={handleChange}
+          />
+
+          {/* Prompt Info */}
+          <FormField 
+            LabelName='Enter prompt'
+            type='text'
+            name='name'
+            placeholder='Wheres Waldo inside Roman coliseum surrounded by thousands of people in real life , high resolution'
+            value={form.prompt}
+            handleChange={handleChange}
+            isFunSamplePrompt
+            handleFunSamplePrompt
+          />
+        </div>
+      </form>
+
     </section>
   )
 }
