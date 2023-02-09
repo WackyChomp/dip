@@ -23,5 +23,11 @@ export const funSamplePrompts = [
     '6 small crows fighting Eagle raid boss in the style of dark souls , one crow rolling to dodge attack , one crow flying straight at the eagle with beak',
     'Jackie Chan from 90s films fighting Donnie Yen from IP Man 2 , professional fight undercard , hyper realistic , close of face and upper torso',
     "3 astronauts lined up from left to right on planet Zebes , each wearing different Metroid Samus Aran suits from left to right (Power suit / Varia suit / Gravity suit)",
-    'Jack the Ripper with bloody knife drawn encounters Dracula nearby a street lamp , mixed between 1800s streets of London and 1920s streets of New York City , hyper realistic and high resolution monochrome'
+    'Jack the Ripper with bloody knife drawn encounters Dracula nearby a street lamp , mixed between 1800s streets of London and 1920s streets of New York City , hyper realistic and high resolution monochrome',
+    "Anxious puppy hugging a duck's neck near the pond , photography similar to National Geographic , high resolution",
+    'Garden gnomes, blue smurfs, and main Toy Story characters deadlock situation on a deserted dried up lawn with a "House for Sale" sign on a house in the background',
+    'One basket on the left with a variety of vegetables, another basket on the right with rotten dried up vegetables with flies swarming and 3 crows circling it',
+    'Picture of person walking towards the screen in a crowded New York City street with main character syndromme , everything on screen slightly darkens except main person walking towards the screen , high resolution',
+    'Picture of man wearing a black suit and orange top hat walking to the right and woman in green dress walking to the left past each other , the woman is the main focal point of the picture , high resolution',
+    'George of the Jungle swinging and Mario from Super Mario Odyssey jumping in New York City',
 ];

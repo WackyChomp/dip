@@ -45,7 +45,7 @@ const CreatePost = () => {
 
           {/* User Info */}
           <FormField 
-            LabelName='Enter name'
+            labelName='Enter name'
             type='text'
             name='name'
             placeholder='Joe Shmoe'
@@ -55,14 +55,14 @@ const CreatePost = () => {
 
           {/* Prompt Info */}
           <FormField 
-            LabelName='Enter prompt'
+            labelName='Enter prompt'
             type='text'
             name='name'
             placeholder='Wheres Waldo inside Roman coliseum surrounded by thousands of people in real life , high resolution'
             value={form.prompt}
             handleChange={handleChange}
-            isFunSamplePrompt
-            handleFunSamplePrompt
+            isFunSamplePrompt     // used to show additional button next to prompt
+            handleFunSamplePrompt={handleFunSamplePrompt}
           />
         </div>
       </form>

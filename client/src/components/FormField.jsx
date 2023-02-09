@@ -1,6 +1,8 @@
 import React from 'react'
 
-const FormField = ({ handleChange, handleFunSamplePrompts, isFunSamplePrompts, labelName, name, placeholder, type, value }) => {
+
+{/* destructured properties used in CreatePost page */}
+const FormField = ({ handleChange, handleFunSamplePrompt, isFunSamplePrompt, labelName, name, placeholder, type, value }) => {
   return (
     <div>
       <div className='flex items-center gap-2 mb-2'>
@@ -10,10 +12,12 @@ const FormField = ({ handleChange, handleFunSamplePrompts, isFunSamplePrompts, l
         >
           {labelName}
         </label>
-        {isFunSamplePrompts && (
+
+        {/* only shows button if prop is added to component */}
+        {isFunSamplePrompt && (
           <button
             type='button'
-            onClick={handleFunSamplePrompts}
+            onClick={handleFunSamplePrompt}
             className='font-semibold text-xs bg-[yellowgreen] py-1 px-2 rounded-[5px] text-black'
           >
             Generate
