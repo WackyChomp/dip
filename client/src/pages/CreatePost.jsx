@@ -26,6 +26,7 @@ const CreatePost = () => {
 
   const handleFunSamplePrompt = () =>{ }
 
+  const generateImage = () => { }
 
   
   return (
@@ -64,6 +65,26 @@ const CreatePost = () => {
             isFunSamplePrompt     // used to show additional button next to prompt
             handleFunSamplePrompt={handleFunSamplePrompt}
           />
+
+          {/* Displays Image */}
+          <div className="relative bg-red-500 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-800 focus:border-blue-500 w-65 p-3 h-65 flex justify-center items-center">
+            {form.photo ? (
+              <img src={form.photo} alt={form.prompt} 
+              className='w-full h-full object-contain'
+              />
+            ): (
+              <img src={preview} alt='preview'
+              className='w-9/12 h-9/12 object-contain opacity-40'
+              />
+            )}
+
+            {/* image darkens and loading animation appears */}
+            {generatingImg && (
+              <div className='absolute inset-0 z-0 flex justify-content items-center bg-[(0,0,0,0.5)] rounded-lg'>
+                <Loader />
+              </div>
+            )}
+          </div>
         </div>
       </form>
 

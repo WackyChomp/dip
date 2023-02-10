@@ -30,4 +30,6 @@ export const funSamplePrompts = [
     'Picture of person walking towards the screen in a crowded New York City street with main character syndromme , everything on screen slightly darkens except main person walking towards the screen , high resolution',
     'Picture of man wearing a black suit and orange top hat walking to the right and woman in green dress walking to the left past each other , the woman is the main focal point of the picture , high resolution',
     'George of the Jungle swinging and Mario from Super Mario Odyssey jumping in New York City',
+    'Black cat with rainbow rave glasses playing electronic keyboard , high resolution',
+    'Man with ponytail wearing glasses sitting in front of a purple laptop trying to stay awake while typing on the keyboard , 90s style hackerman'
 ];
