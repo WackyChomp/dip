@@ -22,10 +22,19 @@ const CreatePost = () => {
 
   const handleSubmit = () =>{ }
 
-  const handleChange = (e) =>{ }
+  
+  // Displays text input
+  const handleChange = (e) =>{ 
+    setForm({ ...form, [e.target.name]: e.target.value })
+  }
 
-  const handleFunSamplePrompt = () =>{ }
+  //Button randomizes prompt from utils folder
+  const handleFunSamplePrompt = () =>{
+    const randomPrompt = getRandomPrompt(form.prompt);
+    setForm({ ...form, prompt: randomPrompt })
+  }
 
+  // Calls backend
   const generateImage = () => { }
 
   

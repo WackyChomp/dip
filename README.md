@@ -58,11 +58,11 @@
 
 Given the recent rise and public attention of AI art around October (10/2022), it too exciting and impressive to ignore. Currently there are divisive consensus regarding its usage and legality purposes.
 
-One thing I know for sure is that we are living in an incredible moment in time where we see the birth and transformation of AI. From here on out, it can only improve
+One thing I know for sure is that we are living in an incredible moment in time where we see the birth, growth, and transformation of AI. From here on out, it can only improve
 
 <br><b>Project Purpose / Vision:</b>
 * Showcasing creativity through prompts
-* Pushing generative boundaries
+* Pushing AI generative boundaries
 * Allowing users to create/post publicly
 
 
@@ -103,7 +103,7 @@ _Below is an example of how you can instruct your audience on installing and set
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/WackyChomp/dip.git
    ```
 3. Install NPM packages
    ```sh
@@ -130,10 +130,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 <!-- ROADMAP -->
-## Roadmap
+## Goals / Roadmap
 
 - [ ] Connect to DALL-E
-- [ ] Adding sample prompts
+- [ x ] Adding sample prompts
 - [ ] Creating posts
 - [ ] Finalized color theme
 - [ ] 
@@ -149,8 +149,8 @@ See the [open issues](https://github.com/WackyChomp/dip/issues) for a full list 
 <!-- CONTRIBUTING -->
 ## Contributing
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+Have any suggestions or ideas in mind?
+<br>Fork the repo and create a pull request. Simply open an issue with the tag "enhancement".
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -165,9 +165,8 @@ Don't forget to give the project a star! Thanks again!
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+List of wonderful resources. Hope these help towards your goals! 
 
-* [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
 * [Malven's Grid Cheatsheet](https://grid.malven.co/)
