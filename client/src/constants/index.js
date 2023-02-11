@@ -31,5 +31,9 @@ export const funSamplePrompts = [
     'Picture of man wearing a black suit and orange top hat walking to the right and woman in green dress walking to the left past each other , the woman is the main focal point of the picture , high resolution',
     'George of the Jungle swinging and Mario from Super Mario Odyssey jumping in New York City',
     'Black cat with rainbow rave glasses playing electronic keyboard , high resolution',
-    'Man with ponytail wearing glasses sitting in front of a purple laptop trying to stay awake while typing on the keyboard , 90s style hackerman'
+    'Man with ponytail wearing glasses sitting in front of a purple laptop trying to stay awake while typing on the keyboard , 90s style hackerman',
+    'Ronald Mcdonald giving homeless people burgers and chicken nuggets with smiling face',
+    'Komodo dragon hugging a woman with a piece of raw chicken meat in its mouth , high resolution',
+    'Close up of hand feeding galapagos tortoise eating wet lettuce with water particles splashing away',
+    'Mcdonald Hamburglar giving burgers to a crowd of hungry people, some people in the crowd are sad for not receiving a burger',
 ];

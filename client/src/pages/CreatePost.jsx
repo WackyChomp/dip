@@ -54,7 +54,7 @@ const CreatePost = () => {
             handleChange={handleChange}
           />
 
-          {/* Prompt Info */}
+          {/* Prompt Info / contains button to change prompt */}
           <FormField 
             labelName='Enter prompt'
             type='text'
@@ -86,6 +86,31 @@ const CreatePost = () => {
             )}
           </div>
         </div>
+
+        {/* Image Generating Button */}
+        <div className="mt-5 flex gap-5">
+          <button
+            type='button'
+            onClick={generateImage}
+            className='text-white bg-yellow-600 font-medium rounded-md text-sm w-full sm:w-auto px-5 py-2.5 text-center'
+           >
+            {generatingImg ? 'Generating...' : 'Generate' }
+          </button>
+        </div>
+
+        {/* Community Sharing Button */}
+        <div className="mt-10">
+          <p className='mt-2 text-[purple] text-[25px] font-bold'>
+            After creating your desired image, let's share your creative with the community!
+          </p>
+          <button
+            type='submit'
+            className='mt-3 text-white bg-[crimson] font-medium rounded-md text-sm w-full sm:w-auto px-5 py-2.5 text-center'
+          >
+            {loading ? 'Sharing...' : 'Share with the community'}
+          </button>
+        </div>
+
       </form>
 
     </section>
