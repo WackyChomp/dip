@@ -133,7 +133,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Goals / Roadmap
 
 - [ ] Connect to DALL-E
-- [ x ] Adding sample prompts
+- [x] Connect to MongoDB
+- [x] Establish routes
+- [x] Adding sample prompts
 - [ ] Creating posts
 - [ ] Finalized color theme
 - [ ] 
