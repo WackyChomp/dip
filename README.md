@@ -171,6 +171,8 @@ List of wonderful resources. Hope these help towards your goals!
 * [Open AI](https://openai.com/)
 * [DALL-E](https://openai.com/blog/dall-e-api-now-available-in-public-beta/)
 <br><br>
+* [MongoDB](https://www.mongodb.com/)
+<br><br>
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
 * [Malven's Grid Cheatsheet](https://grid.malven.co/)
