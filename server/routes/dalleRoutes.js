@@ -13,9 +13,32 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration)         // instance
 
 
-// router test
+// router test (REMOVE)
 router.route('/').get((req, res) => {
     res.send('This is route is from dalleRoute.js :O !#@$%')
+})
+
+// Route for front end
+router.route('/').post( async(req, res) => {
+    try {
+        const { prompt } = req.body;            // Grabs prompt from front end
+
+        // Generating image
+        const aiResponse = await openai.createImage({
+            prompt,
+            n: 1,
+            size: '1024x1024',
+            response_format: 'b64_json',
+        })
+
+        // Grab generated image
+        const image = aiResponse.data.data[0].b64_json;
+
+        res.status(200).json({ photo: image });         // sending image to front end
+    } catch (error) {
+        console.log(error);
+        res.status(500).send(error?.response.data.error.message)
+    }
 })
 
 
