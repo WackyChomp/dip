@@ -58,12 +58,12 @@
 
 Given the recent rise and public attention of AI art around October (10/2022), it too exciting and impressive to ignore. Currently there are divisive consensus regarding its usage and legality purposes.
 
-One thing I know for sure is that we are living in an incredible moment in time where we see the birth, growth, and transformation of AI. From here on out, it can only improve
+One thing that's certain is that we are living in an incredible moment in time where we see the birth, growth, and transformation of AI. From here on out, it can only improve
 
 <br><b>Project Purpose / Vision:</b>
-* Showcasing creativity through prompts
-* Pushing AI generative boundaries
-* Allowing users to create/post publicly
+* Pushing AI generative boundaries to showcase its creativity through prompts
+* Allowing users to create/post publicly to exhibit their imagination
+* Sleek design that's user friendly and accessible to everyone 
 
 
 
@@ -133,7 +133,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Goals / Roadmap
 
 - [ ] Connect to DALL-E
-- [ x ] Adding sample prompts
+- [x] Connect to MongoDB
+- [x] Establish routes
+- [x] Adding sample prompts
 - [ ] Creating posts
 - [ ] Finalized color theme
 - [ ] 
@@ -167,6 +169,12 @@ Have any suggestions or ideas in mind?
 
 List of wonderful resources. Hope these help towards your goals! 
 
+* [Midjourney](https://midjourney.com/home)
+* [Open AI](https://openai.com/)
+* [DALL-E](https://openai.com/blog/dall-e-api-now-available-in-public-beta/)
+<br><br>
+* [MongoDB](https://www.mongodb.com/)
+<br><br>
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
 * [Malven's Grid Cheatsheet](https://grid.malven.co/)

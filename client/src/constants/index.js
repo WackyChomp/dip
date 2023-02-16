@@ -41,4 +41,8 @@ export const funSamplePrompts = [
     'Mario standing next to his kart on Rainbow Road from Mario Kart looking at Geno looking back on Star Road from Super Mario RPG , anime style',
     'Hackerman reaching out his hand to save Neo from Matrix through his computer screen , Neo choosing between red pill and blue pill',
     'Orangutan in wizard sage outfit holding a mystical wooden staff , Studio Ghibli artstyle',
+    "Curious George monkey and The Man with the Yellow Hat are muscular in the art style of Jojo's Bizarre Adventure , Curious George is holding a banana phone , The Man with the Yellow Hat holding a banana bazooka",
+    'Conor from Detroit Become Human game interrogating the robot from the movie "I, Robot" , police detective Will Smith and Hank Anderson watching the interrogation behind one-way mirror',
+    'Heath Ledger Joker extending his hand out to recruit and console Joaquin Phoenix Joker , anatomically correct human hands , light from above illuminating from above them , hyper realistic',
+    'Skibidi Bop guy shaking hands with Ricardo Milos , anatomically correct human hands , dragon ball super tournament of power arena , showing both people from the waist up , dragon ball super anime art style',
 ];
