@@ -119,7 +119,10 @@ _Below is an example of how you can instruct your audience on installing and set
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Images / Progression
+
+<p><u>February 17, 2023</u> - 1st image generated! - Prompt needs improving</p>
+<img src="./client/src/assets/first-image-generation-(2-17-2023).png"/>
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
