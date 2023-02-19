@@ -19,8 +19,32 @@ const CreatePost = () => {
   const [loading, setLoading] = useState(false);
 
 
+  // Share with community submission button 
+  const handleSubmit = async (e) =>{
+    e.preventDefault();
 
-  const handleSubmit = () =>{ }
+    if(form.prompt && form.photo){
+      setLoading(true);
+      try {
+        const response = await fetch('http://localhost:8080/api/v1/post', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(form)      // fetch req.body from postRoutes.js backend
+        })
+        await response.json();
+        navigate('/');
+
+      } catch (error) {
+        alert(error)
+      } finally {
+        setLoading(false);
+      }
+    } else{
+      alert('Unable to proceed - Please enter a prompt and generate an image!')
+    }
+  }
 
   
   // Displays text input
