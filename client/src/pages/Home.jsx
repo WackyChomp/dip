@@ -23,8 +23,33 @@ const Home = () => {
   const [loading, setLoading] = useState(false);
   const [allPosts, setAllPosts] = useState(null);
 
-  const [searchText, setSearchText] = useState('asdf');
+  const [searchText, setSearchText] = useState('');
 
+    useEffect(() =>{
+      const fetchPosts = async () => {
+        setLoading(true);
+        try {   // similar to PostRoutes in server
+          const response = await fetch('http://localhost:8080/api/v1/post', {
+            method: 'GET',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+          })
+          
+          if(response.ok){
+            const result = await response.json();
+            setAllPosts(result.data.reverse());     // shows the newest post at the top
+          }
+
+        } catch (error) {
+          alert(error)
+        } finally {
+          setLoading(false)
+        }
+      }
+
+      fetchPosts();
+    }, [])
 
   return (
     <section className='max-w-7xl mx-auto'>
@@ -63,7 +88,7 @@ const Home = () => {
                   />
                 ) :(
                   <RenderCards
-                    data={[]}        //'allPosts'
+                    data={allPosts}        //'allPosts'
                     title='No Posts found at all'
                   />
                 )}

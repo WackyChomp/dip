@@ -48,4 +48,9 @@ export const funSamplePrompts = [
     'Boa constrictor with falcon wings and and ostrich legs hybrid running in the African safari wildlife , hyper realistic',
     'Close up of person with right eye being cloudy and the left eye having sunshine and rainbow , high resolution',
     'Indigo orc wielding iron club with two hands to smash a boulder blocking a cave on rocky mountain, rock particles flying , hyper realistic',
+    'Animals from Chinese zodiac living on a large acre farm , dragon in the sky protecting everyone , hyper realistic',
+    'Rainbow socks floating in space in front of planet earth with the milky way galaxy in the background , hyper realistic',
+    'Brunette woman wearing a red beret in camo military marine uniform saluting , wearing high ranking badges , hyper realistic',
+    'Crowd of people of different ethnicities walking in the streets , blend of different time era from 1980s-2020s , photo realistic',
+    'Dirty basket of laundry being thrown into the garbage truck in New York City , empty trash cans on the sidewalk , photo realistic',
 ];
