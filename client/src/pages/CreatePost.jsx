@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Form, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import { preview } from '../assets';
 import { getRandomPrompt } from '../utils';
@@ -26,7 +26,7 @@ const CreatePost = () => {
     if(form.prompt && form.photo){
       setLoading(true);
       try {
-        const response = await fetch('http://localhost:8080/api/v1/dalle', {
+        const response = await fetch('http://localhost:8080/api/v1/post', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -115,7 +115,7 @@ const CreatePost = () => {
           <FormField 
             labelName='Enter prompt'
             type='text'
-            name='name'
+            name='prompt'
             placeholder='Wheres Waldo inside Roman coliseum surrounded by thousands of people in real life , high resolution'
             value={form.prompt}
             handleChange={handleChange}

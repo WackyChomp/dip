@@ -124,6 +124,10 @@ _Below is an example of how you can instruct your audience on installing and set
 <p><u>February 17, 2023</u> - 1st image generated! - Prompt needs improving</p>
 <img src="./client/src/assets/first-image-generation-(2-17-2023).png"/>
 
+<br>
+<p><u>February 23, 2023</u> - Image added to homepage after creating post</p>
+<img src="./client/src/assets/2-image-added-to-homepage-(2-23-2023).png"/>
+
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
@@ -135,11 +139,11 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Goals / Roadmap
 
-- [ ] Connect to DALL-E
+- [x] Connect to DALL-E
 - [x] Connect to MongoDB
 - [x] Establish routes
 - [x] Adding sample prompts
-- [ ] Creating posts
+- [x] Creating posts
 - [ ] Finalized color theme
 - [ ] 
     - [ ] 
